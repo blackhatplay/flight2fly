@@ -31,7 +31,8 @@ header {
         font-weight: bold; }
     header .header-wrapper ul {
       list-style: none;
-      display: flex; }
+      display: flex;
+      gap: 1rem; }
 
 .hero-section {
   width: 100%;
@@ -127,6 +128,9 @@ header {
   .content-section .block :first-child {
     font-weight: bold; }
 
+#privacy-header a {
+  color: #000; }
+
 .call-block-colored {
   background-image: linear-gradient(to right, #2193b0 0%, #6dd5ed 100%); }
   .call-block-colored .container {
@@ -187,4 +191,6 @@ header {
   .call-block-colored .content-wrapper {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0 !important; } }
+    padding: 1rem 0 !important; }
+  header .header-wrapper {
+    flex-direction: column; } }
